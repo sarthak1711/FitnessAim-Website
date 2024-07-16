@@ -1,5 +1,5 @@
 nav {
-    position: fixed;
+    position: absolute;
     z-index: 9;
       top: 0;
       width: 100%;
@@ -152,12 +152,28 @@ nav .b-logo{
     display: none;
     z-index: 1;
     position: absolute;
-    top: 58px;
+    top: 120px;
     left: 0px;
     width: 100%;
   }
   .snavp:hover .snav {
     display: block;
+  }
+  .pch {
+    height: 1720px;
+  }
+  @media screen and (min-width: 1440px) {
+    .pch {
+      height: 2300px;
+    }
+  }
+  .pch1 {
+    height: 1420px;
+  }
+  @media screen and (min-width: 1440px) {
+    .pch1 {
+      height: 1720px;
+    }
   }
 
 

@@ -3,8 +3,8 @@ import '../../../src/style.css';
 
 const Collectionsection = () => {
   return (
-    <section className="pbg relative">
-        <img src="img/pbg.png" alt="" className="h-[463px] w-full"/>
+    <section className="pbg relative mt-[-5px]">
+        <img src="img/pbg.png" alt="" className="h-[613px] w-full"/>
         <div className="w-full absolute top-0">
           
           <div className="text-center text-[48px] flex items-center justify-center mt-10"><p className="text-white">High</p><p className="text-[#FC0505]">lights</p></div>
@@ -23,7 +23,7 @@ const Collectionsection = () => {
 
           </div>
         </div>
-        <img src="img/iuc.png" alt=""/>
+        <img src="img/iuc.png" alt="" className=""/>
       </section>
   );
 };

@@ -9,10 +9,10 @@ import Footer from '../components/Footer'
     
     <div className="">
         <Header/>
-        <div className="bg-[#000000] h-[58px]"></div>
-        <img src="img/ccdb.png" alt=""/>
-        <div className="py-10 px-[10rem]">
-        <img src="img/ccd.png" alt=""/>
+        <div className="bg-[#000000] h-[122px]"></div>
+        <img src="img/ccdb.png" alt="" className="w-full"/>
+        <div className="py-10 lg:px-[25rem] px-[10rem]">
+        <img src="img/ccd.png" alt="" className="w-full"/>
         <p className="text-[16px] text-[#666666]">Unleashing Your Gym's Potential with Tailored Solutions </p>
         <p className="text-[16px] text-[#333333] py-5">Creating the perfect gym is more than just assembling equipment; it's about understanding your unique vision and turning it into a reality that exceeds expectations. At Fitness Aim, we believe in the power of personalized design and consultation to create an exceptional fitness environment that reflects your goals and caters to your member’s needs. </p>
         <p className="text-[24px] font-semibold text-[#333333] py-2">Understanding Your Goals </p>
@@ -23,11 +23,11 @@ import Footer from '../components/Footer'
             <p className="text-[24px] font-semibold text-[#333333] pb-2">Crafting a Customized Plan </p>
             <p className="text-[16px] text-[#333333] py-5">Once we have a clear understanding of your goals, our expert design team gets to work. We combine your vision with our extensive industry experience to create a comprehensive plan that addresses every aspect of your gym. From layout and flow to equipment selection and aesthetic details, every element is meticulously planned to ensure an optimal fitness experience for your members.</p>
             </div>
-            <div><img src="img/ccd1.png" alt=""/></div>
+            <div><img src="img/ccd1.png" alt="" className="w-full"/></div>
         </div>
 
         <div className="grid grid-cols-2 gap-6 mt-3">
-        <div><img src="img/ccd2.png" alt=""/></div>
+        <div><img src="img/ccd2.png" alt="" className="w-full"/></div>
             <div>
             <p className="text-[24px] font-semibold text-[#333333] pb-2">Innovative and Functional Design </p>
             <p className="text-[16px] text-[#333333] py-5">Our design philosophy revolves around innovation and functionality. We incorporate the latest trends and technologies in fitness design to create spaces that are not only visually appealing but also highly functional. Whether it's optimizing the use of space, ensuring smooth traffic flow, or creating designated areas for different types of workouts, we focus on every detail to enhance the user experience.</p>
