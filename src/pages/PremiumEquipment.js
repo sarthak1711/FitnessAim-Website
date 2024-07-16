@@ -9,10 +9,10 @@ import Footer from '../components/Footer'
     
     <div className="">
         <Header/>
-        <div className="bg-[#000000] h-[58px]"></div>
-        <img src="img/peb.png" alt=""/>
-        <div className="py-10 px-[10rem]">
-        <img src="img/pe1.png" alt=""/>
+        <div className="bg-[#000000] h-[122px]"></div>
+        <img src="img/peb.png" alt="" className="w-full"/>
+        <div className="py-10 lg:px-[25rem] px-[10rem]">
+        <img src="img/pe1.png" alt="" className="w-full"/>
         <p className="text-[16px] text-[#666666]">Your Partner in Long-Term Success  </p>
         <p className="text-[16px] text-[#333333] py-5">Running a successful gym requires more than just top-quality equipment and an excellent setup. It demands ongoing care and attention to ensure everything operates smoothly and efficiently. At Fitness Aim, we are committed to your success, offering continuous support and maintenance services designed to keep your gym performing at its best every day. </p>
         <p className="text-[24px] font-semibold text-[#333333] py-2">Unwavering Commitment to Excellence  </p>
@@ -23,11 +23,11 @@ import Footer from '../components/Footer'
             <p className="text-[24px] font-semibold text-[#333333] pb-2">Rapid Response and Repair</p>
             <p className="text-[16px] text-[#333333] py-5">Even with the best maintenance practices, equipment can sometimes malfunction. At Fitness Aim, we offer rapid response and repair services to minimize downtime and keep your gym running smoothly. Our experienced technicians are equipped to handle a wide range of issues, from minor adjustments to major repairs. We prioritize quick and efficient service, so your members can get back to their workouts with minimal disruption.</p>
             </div>
-            <div><img src="img/pe2.png" alt=""/></div>
+            <div><img src="img/pe2.png" alt="" className="w-full"/></div>
         </div>
 
         <div className="grid grid-cols-2 gap-6 mt-3">
-        <div><img src="img/pe3.png" alt=""/></div>
+        <div><img src="img/pe3.png" alt="" className="w-full"/></div>
             <div>
             <p className="text-[24px] font-semibold text-[#333333] pb-2">Expert Advice and Support </p>
             <p className="text-[16px] text-[#333333] py-5">Beyond maintenance and repairs, Fitness Aim provides ongoing expert advice to help you manage your gym effectively. Whether you need guidance on equipment usage, layout optimization, or implementing new technologies, our team is here to assist. We stay up-to-date with the latest industry trends and innovations, ensuring you have access to the best practices and solutions for your gym.</p>

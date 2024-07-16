@@ -15,35 +15,35 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
 
-window.onscroll = () => {
-  const nav = document.querySelector('#navbar');
-  if(window.scrollY <= 10) {
-    nav.className = '';
-  } else {
-    nav.className = 'scroll';
-  }
-};
+// window.onscroll = () => {
+//   const nav = document.querySelector('#navbar');
+//   if(window.scrollY <= 10) {
+//     nav.className = '';
+//   } else {
+//     nav.className = 'scroll';
+//   }
+// };
   const Header = () => {
     
   return (
     
     <section>
    <div>
-        <nav id="navbar" className="lg:py-8 lg:px-10 max-sm:p-2">
+        <nav id="navbar" className="lg:py-8 lg:px-20 max-sm:p-2">
           <div className="flex items-center justify-between">
             <div className="flex">
               {/* <button className="openbtn lg:px-5 max-sm:px-2" onClick={openNav}>☰</button> */}
-              <img src="img/Logo.png" alt="" className="h-10 w-logo " />
-              <img src="img/Logo.png" alt="" className="h-10 b-logo " />
+              <a href="/"><img src="img/Logo.png" alt="" className="h-10 w-logo " /></a>
+              <a href="/"><img src="img/Logo.png" alt="" className="h-10 b-logo " /></a>
             </div>
             <div className="flex text-white max-sm:hidden">
               <ul className="flex text-xl nav-link text-[18px] font-light">
-                <li className="px-4 cursor-pointer py-[15px]">Home</li>
-                <li className="px-4 cursor-pointer flex items-center py-[15px]">Shop Now<FaAngleDown className="mt-1 ml-2"/></li>
-                <li className="px-4 cursor-pointer flex items-center snavp py-[15px]">Services<FaAngleDown className="mt-1 ml-2"/> <br/>
+                <li className="px-3 cursor-pointer py-[15px]"><a href="/">Home</a></li>
+                <li className="px-3 cursor-pointer flex items-center py-[15px]">Shop Now<FaAngleDown className="mt-1 ml-2"/></li>
+                <li className="px-3 cursor-pointer flex items-center snavp py-[15px]">Services<FaAngleDown className="mt-1 ml-2"/> <br/>
                 <div className="snav">
                   <div className="grid grid-cols-2">
-                    <div className="p-10 grid grid-cols-2 gap-7 bg-[#333333]">
+                    <div className="py-10 px-20 grid grid-cols-2 gap-7 bg-[#333333]">
                       <div>
                         <ul>
                           <li className="text-[18px] text-[#B6B6B6] font-semibold">SERVICE</li>
@@ -67,17 +67,17 @@ window.onscroll = () => {
                   </div>
                 </div>
                 </li>
-                <li className="px-4 cursor-pointer py-[15px]"><a href="/NewsEvents">News & Events</a></li>
-                <li className="px-4 cursor-pointer py-[15px]"><a href="/Blogs">Blogs</a></li>
-                <li className="px-4 cursor-pointer py-[15px]"><a href="/AboutUs">About Us</a></li>
-                <li className="px-4 cursor-pointer py-[15px]">Contact Us</li>
+                <li className="px-3 cursor-pointer py-[15px]"><a href="/NewsEvents">News & Events</a></li>
+                <li className="px-3 cursor-pointer py-[15px]"><a href="/Blogs">Blogs</a></li>
+                <li className="px-3 cursor-pointer py-[15px]"><a href="/AboutUs">About Us</a></li>
+                <li className="px-3 cursor-pointer py-[15px]">Contact Us</li>
               </ul>
             </div>
             <div>
             <ul className="flex text-xl nav-link text-[18px] font-medium">
-              <li className="px-4 cursor-pointer py-[15px]"><FaRegUser className="text-white"/></li>
-              <li className="px-4 cursor-pointer py-[15px]"><TbClipboardText className="text-white"/></li>
-              <li className="px-4 cursor-pointer py-[15px]"><IoCartOutline className="text-white"/></li>
+              <li className="px-3 cursor-pointer py-[15px]"><FaRegUser className="text-white"/></li>
+              <li className="px-3 cursor-pointer py-[15px]"><TbClipboardText className="text-white"/></li>
+              <li className="px-3 cursor-pointer py-[15px]"><IoCartOutline className="text-white"/></li>
             </ul>
             </div>
           </div>
