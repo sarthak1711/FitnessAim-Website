@@ -9,7 +9,7 @@ import '../../../src/style.css';
         <div className="py-10 text-center">
             <h1 className="text-3xl text-white pb-2">Whant to know more?</h1>
             <p className="text-white pb-5">Ready to push your limits? Discover how we empower athletes like you.</p>
-            <button className="rounded-lg bg-[#C7363D] text-white px-7 py-2">
+            <button className="rounded-lg bg-[#FC0505] text-white px-7 py-2">
             Contact Us
             </button>
         </div>

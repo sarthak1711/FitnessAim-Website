@@ -10,6 +10,9 @@ import ConsultationandCustomdesign from './pages/ConsultationandCustomdesign';
 import Onsiteinstallation from './pages/Onsiteinstallation';
 import PremiumEquipment from './pages/PremiumEquipment';
 import Support from './pages/Support';
+import Contactus from './pages/Contactus';
+import ShopNow from './pages/ShopNow';
+import Productlisting from './pages/Productlisting';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -43,6 +46,18 @@ const router = createBrowserRouter([
   {
     path: "Support",
     element: <Support/>,
+  },
+  {
+    path: "Contactus",
+    element: <Contactus/>,
+  },
+  {
+    path: "ShopNow",
+    element: <ShopNow/>,
+  },
+  {
+    path: "Productlisting",
+    element: <Productlisting/>,
   },
   {
     path: "/",
