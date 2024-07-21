@@ -176,4 +176,31 @@ nav .b-logo{
     }
   }
 
+  .nb:hover {
+    border-bottom: 2px solid red;
+  }
+  active {
+    border-bottom: 2px solid red;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+  .pbg {
+    background-image: url(/public/img/pbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pbg2 {
+    background-image: url(/public/img/pbg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pbg3 {
+    background-image: url(/public/img/opb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    
 

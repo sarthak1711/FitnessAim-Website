@@ -3,15 +3,15 @@ import '../../../src/style.css';
 
 const Collectionsection = () => {
   return (
-    <section className="pbg relative mt-[-5px]">
-        <img src="img/pbg.png" alt=""/>
-        <div className="w-full absolute top-0">
-          <div className="grid grid-cols-2 gap-10 py-10 px-20">
-            <div className="px-10"><img src="img/Text.png" alt=""/></div>
-            <div className="px-10"><img src="img/Clients.png" alt=""/></div>
+    <section className="pbg mt-[-5px]">
+        {/* <img src="img/pbg.png" alt=""/> */}
+        <div className="w-full">
+          <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10 lg:py-20 max-sm:py-6 lg:px-[10rem] max-sm:px-6">
+            <div className="px-10"><img src="img/Text.png" alt="" className="w-full pt-10"/></div>
+            <div className="px-10"><img src="img/Clients1.png" alt="" className="w-full"/></div>
           </div>
           <div className="text-center text-[48px] flex items-center  justify-center"><p className="text-white">Our</p><p className="text-[#FC0505]">&nbsp;Services</p></div>
-          <div className="grid grid-cols-4 gap-4 py-10 px-20">
+          <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-4 lg:py-20 max-sm:py-6 lg:px-[18rem] max-sm:px-6">
             <div className="h-[400px] text-center relative px-7 py-5" style={{border: '1px solid #424242'}}>
               <p className="flex justify-center mt-3"><img src="img/os1.png" alt=""/></p>
               <p className="text-white text-[24px] mt-5">Premium <br/>

@@ -7,7 +7,7 @@ const Header = () => {
         <div className="grid grid-cols-1">
           <div className="">
             <div className="">
-              <img src="img/Banner 1.png" alt="" />
+              <img src="img/Banner 1.png" alt="" className="w-full"/>
               
             </div>
           </div>
