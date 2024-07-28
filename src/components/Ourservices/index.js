@@ -8,7 +8,7 @@ const Collectionsection = () => {
         <div className="w-full">
           <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10 lg:py-20 max-sm:py-6 lg:px-[10rem] max-sm:px-6">
             <div className="px-10"><img src="img/Text.png" alt="" className="w-full pt-10"/></div>
-            <div className="px-10"><img src="img/Clients1.png" alt="" className="w-full"/></div>
+            <div className="px-10"><img src="img/clients1.png" alt="" className="w-full"/></div>
           </div>
           <div className="text-center lg:text-[48px] max-sm:text-[32px] flex items-center  justify-center"><p className="text-white">Our</p><p className="text-[#FC0505]">&nbsp;Services</p></div>
           <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-4 lg:py-20 max-sm:py-6 lg:px-[5rem] max-sm:px-6">
