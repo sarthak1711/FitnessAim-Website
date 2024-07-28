@@ -9,21 +9,24 @@ const Collectionsection = () => {
           
           <div className="text-center text-[48px] flex items-center justify-center pt-20"><p className="text-white">High</p><p className="text-[#FC0505]">lights</p></div>
           <div className="grid lg:grid-cols-3 max-sm:grid-cols-1 gap-2 pt-20 max-sm:px-6">
-            <div >
-              <img src="img/h1.png" alt="" className="w-full"/>
+            <div className="relative">
+              <img src="img/h1.png" alt="" className="w-full lm hover:opacity-30"/>
+              <a href="/EnvironmentConservation" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Learn More</a>
             </div>
 
-            <div >
-              <img src="img/h2.png" alt="" className="w-full"/>
+            <div className="relative">
+              <img src="img/h2.png" alt="" className="w-full lm hover:opacity-30"/>
+              <a href="/InnovationTechnology" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Learn More</a>
             </div>
 
-            <div >
-              <img src="img/h3.png" alt="" className="w-full"/>
+            <div className="relative">
+              <img src="img/h3.png" alt="" className="w-full lm hover:opacity-30"/>
+              <a href="/QualityManagement" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Learn More</a>
             </div>
 
           </div>
         </div>
-        <img src="img/iuc.png" alt="" className="w-full"/>
+        <img src="img/iucn.png" alt="" className="w-full"/>
       </section>
   );
 };

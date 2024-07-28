@@ -10,8 +10,8 @@ const Collectionsection = () => {
             <div className="px-10"><img src="img/Text.png" alt="" className="w-full pt-10"/></div>
             <div className="px-10"><img src="img/Clients1.png" alt="" className="w-full"/></div>
           </div>
-          <div className="text-center text-[48px] flex items-center  justify-center"><p className="text-white">Our</p><p className="text-[#FC0505]">&nbsp;Services</p></div>
-          <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-4 lg:py-20 max-sm:py-6 lg:px-[18rem] max-sm:px-6">
+          <div className="text-center lg:text-[48px] max-sm:text-[32px] flex items-center  justify-center"><p className="text-white">Our</p><p className="text-[#FC0505]">&nbsp;Services</p></div>
+          <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-4 lg:py-20 max-sm:py-6 lg:px-[5rem] max-sm:px-6">
             <div className="h-[400px] text-center relative px-7 py-5" style={{border: '1px solid #424242'}}>
               <p className="flex justify-center mt-3"><img src="img/os1.png" alt=""/></p>
               <p className="text-white text-[24px] mt-5">Premium <br/>

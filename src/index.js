@@ -13,6 +13,11 @@ import Support from './pages/Support';
 import Contactus from './pages/Contactus';
 import ShopNow from './pages/ShopNow';
 import Productlisting from './pages/Productlisting';
+import EnvironmentConservation from './pages/EnvironmentConservation';
+import InnovationTechnology from './pages/InnovationTechnology';
+import QualityManagement from './pages/QualityManagement';
+
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,6 +27,14 @@ const router = createBrowserRouter([
   {
     path: "aboutus",
     element: <AboutUs/>,
+  },
+  {
+    path: "QualityManagement",
+    element: <QualityManagement/>,
+  },
+  {
+    path: "InnovationTechnology",
+    element: <InnovationTechnology/>,
   },
   {
     path: "newsevents",
@@ -59,6 +72,11 @@ const router = createBrowserRouter([
     path: "Productlisting",
     element: <Productlisting/>,
   },
+  {
+    path: "EnvironmentConservation",
+    element: <EnvironmentConservation/>,
+  },
+  
   {
     path: "/",
     element: <App/>,

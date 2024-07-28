@@ -84,7 +84,7 @@ import '../../../src/style.css';
             </div>
           </div>
 
-          <p className="py-10 text-white">© 2024. Made in India by Arawat Internationals.</p>
+          <p className="py-10 max-sm:py-0 text-white">© 2024. Made in India by Arawat Internationals.</p>
         </div>
         
     </section>
