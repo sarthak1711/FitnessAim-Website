@@ -5,11 +5,12 @@ import { TbClipboardText } from "react-icons/tb";
 import { IoCartOutline } from "react-icons/io5";
 import { FaAngleDown } from "react-icons/fa";
 import { IoSearchSharp } from "react-icons/io5";
+// import ReactWOW from 'react-wow'
 
   
 
 function openNav() {
-  document.getElementById("mySidepanel").style.width = "300px";
+  document.getElementById("mySidepanel").style.width = "250px";
 }
 
 function closeNav() {
@@ -33,8 +34,12 @@ function closeNav() {
         <nav id="navbar" className="lg:py-8 lg:px-20 max-sm:p-2 hover:bg-black">
           <div className="flex items-center justify-between">
             <div className="flex">
-              {/* <button className="openbtn lg:px-5 max-sm:px-2" onClick={openNav}>☰</button> */}
-              <a href="/"><img src="img/Logo.png" alt="" className="h-12 w-logo " /></a>
+              <button className="openbtn lg:px-5 max-sm:px-2 lg:hidden sm:block" onClick={openNav}>☰</button>
+              <a href="/">
+              {/* <ReactWOW animation='fadeIn'> */}
+              <img src="img/Logo.png" alt="" className="h-12 w-logo " />
+              {/* </ReactWOW> */}
+              </a>
               <a href="/"><img src="img/Logo.png" alt="" className="h-12 b-logo " /></a>
             </div>
             <div className="flex text-white max-sm:hidden">
@@ -43,6 +48,7 @@ function closeNav() {
                 <li className="px-3 cursor-pointer flex items-center snavp py-[15px]"><a className="nb active flex items-center" href="/ShopNow">Shop Now<FaAngleDown className="mt-1 ml-2"/></a>
                 <br/>
                 <div className="snav">
+                  <div className="h-[35px] bg-black"></div>
                   <div className="grid grid-cols-2">
                     <div className="py-10 px-20 grid grid-cols-2 gap-7 bg-[#333333]">
                       <div>
@@ -80,6 +86,7 @@ function closeNav() {
                 </li>
                 <li className="px-3 cursor-pointer flex items-center snavp py-[15px]"><a className="nb active flex items-center">Services<FaAngleDown className="mt-1 ml-2"/></a> <br/>
                 <div className="snav">
+                <div className="h-[35px] bg-black"></div>
                   <div className="grid grid-cols-2">
                     <div className="py-10 px-20 grid grid-cols-2 gap-7 bg-[#333333]">
                       <div>
@@ -95,9 +102,9 @@ function closeNav() {
                       <div>
                         <ul>
                           <li className="text-[18px] text-[#B6B6B6] font-semibold">HIGHLIGHTS</li>
-                          <li className="text-[18px] text-[#ffffff] font-medium mt-3"><a>Environment Conservation</a></li>
-                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a>Innovation & Technology</a></li>
-                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a>Quality Management  </a></li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-3"><a href="/EnvironmentConservation">Environment Conservation</a></li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/InnovationTechnology">Innovation & Technology</a></li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/QualityManagement">Quality Management  </a></li>
                         </ul>
                       </div>
                     </div>
@@ -134,34 +141,52 @@ function closeNav() {
             <button className="bg-[#3b1443] text-white px-7 py-3 rounded-3xl my-4">Continue shopping</button>
           </div>
         </div>
-        <div id="mySidepanel" className="sidepanel">
+        <div id="mySidepanel" className="sidepanel w-[250px]">
           <a href="javascript:void(0)" className="closebtn text-end text-3xl" onClick={closeNav}>×</a>
           {/* dropdown.... */}
-          <a href="#">
-          </a><div className="dropdown"><a href="#">
-              <button className="dropbtn">Men's
+          {/* <a href="#"></a> */}
+          <div className="dropdown">
+            <a href="#">
+              <button className="dropbtn">Shop Now
                 <i className="fa fa-caret-down" />
               </button>
-            </a><div className="dropdown-content"><a href="#">
-              </a><a href="#">Executive Bags</a>
-              <a href="#">Bags</a>
-              <a href="#">Laptop Bag</a>
+            </a>
+            <div className="dropdown-content"><a href="#">
+              </a><a href="#">Lifting Sets</a>
+              <a href="#">Barbells</a>
+              <a href="#">Plates/Discs</a>
+              <a href="#">Platforms</a>
+              <a href="#">Dumbbells</a>
+              <a href="#">Racks & Rigs</a>
+              <a href="#">Benches</a>
+              <a href="#">Flooring</a>
+              <a href="#">Yoga and Accessories</a>
+              <a href="#">Sports & Agility</a>
+              <a href="#">Barbell Collors</a>
+              <a href="#">Kettlebells</a>
+              <a href="#">Cardio</a>
+              <a href="#">Rings and Cages</a>
+              <a href="#">Home Gym Equipment</a>
+              <a href="#">Gears and Apperals</a>
+              <a href="#">Strength Equipments</a>
+              <a href="#">Outdoor Gym</a>
+              <a href="#">Miscellaneous</a>
             </div>
           </div>
-          <a href="#">
-          </a><div className="dropdown"><a href="#">
-              <button className="dropbtn">Women's
+          <div className="dropdown"><a href="#">
+              <button className="dropbtn">Services
                 <i className="fa fa-caret-down" />
               </button>
-            </a><div className="dropdown-content"><a href="#">
-              </a><a href="#">Totes &amp; Satchels</a>
+            </a><div className="dropdown-content">
+              <a href="#"></a>
+              {/* <a href="#">Totes &amp; Satchels</a> */}
             </div>
           </div>
           {/* end dropdown.............. */}
-          <a href="#" alt=''>Unisex</a>
-          <a href="#">Accessories</a>
-          <a href="#">Travel</a>
-          <a href="#">Corporate and Business Gifts</a>
+          <a href="#" alt=''>News & Events</a>
+          <a href="#">Blogs</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
         </div>
       </div>
   </section>

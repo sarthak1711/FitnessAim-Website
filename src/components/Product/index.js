@@ -6,7 +6,7 @@ const Collectionsection = () => {
     <section className="pbg2 mt-[-5px]">
         {/* <img src="img/pbg1.png" alt="" className="pch"/> */}
         <div className="w-full">
-          <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10 lg:py-20 max-sm:py-6 lg:px-[10rem] max-sm:px-6">
+          <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10 lg:py-20 max-sm:py-6 lg:px-[5rem] max-sm:px-6">
             <div className="px-5"><img src="img/pm.png" alt="" /></div>
             <div className="px-5 pt-5 flex items-center">
               <div>
@@ -16,22 +16,26 @@ const Collectionsection = () => {
               </div>
             </div>
           </div>
-          <div className="text-center text-[48px] flex items-center justify-center"><p className="text-white">Product</p><p className="text-[#FC0505]">&nbsp;Categories</p></div>
-          <div className="grid lg:grid-cols-2 max-sm:grid-cols-1 gap-10 lg:py-20 max-sm:py-6 lg:px-[18rem] max-sm:px-6">
-            <div >
-              <img src="img/pc1n.png" alt="" className="w-full"/>
+          <div className="text-center lg:text-[48px] max-sm:text-[32px] flex items-center justify-center"><p className="text-white">Product</p><p className="text-[#FC0505]">&nbsp;Categories</p></div>
+          <div className="grid lg:grid-cols-2 max-sm:grid-cols-1 gap-10 lg:py-20 max-sm:py-6 lg:px-[10rem] max-sm:px-6">
+            <div className="relative">
+              <img src="img/pc1n.png" alt="" className="w-full lm hover:opacity-30"/>
+              <a href="/Onsiteinstallation" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Explore</a>
             </div>
 
-            <div >
-              <img src="img/pc2n.png" alt="" className="w-full"/>
+            <div className="relative">
+              <img src="img/pc2n.png" alt="" className="w-full lm hover:opacity-30"/>
+              <a href="/ConsultationandCustomdesign" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Explore</a>
             </div>
 
-            <div >
-              <img src="img/pc3n.png" alt="" className="w-full"/>
+            <div className="relative">
+              <img src="img/pc3n.png" alt="" className="w-full lm hover:opacity-30"/>
+              <a className="lmb border-2 border-white px-5 py-1 rounded-3xl">Explore</a>
             </div>
 
-            <div >
-              <img src="img/pc4.png" alt="" className="w-full"/>
+            <div className="relative">
+              <img src="img/pc4n.png" alt="" className="w-full lm hover:opacity-30"/>
+              <a className="lmb border-2 border-white px-5 py-1 rounded-3xl">Explore</a>
             </div>
 
           </div>

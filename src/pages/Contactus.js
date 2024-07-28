@@ -60,7 +60,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
         </div>
         <img src="img/mapd.png" alt="" className="w-full"/>
 
-        <div className="bg-black h-[290px] px-[10rem] flex">
+        <div className="bg-black h-[290px] px-[10rem] max-sm:px-[1rem] flex max-sm:block">
 
             <div className="bg-white p-2 w-[350px] h-[290px] hover:h-[427px] mt-[-125px] overflow-hidden hover:mt-[-200px] absolute">
             <img src="img/mapi1.png" alt="" className="w-full"/>
@@ -71,7 +71,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
             Mangal Pandey Nagar, University Road, Meerut-250001, (U.P.) India.</p>
             </div>
 
-            <div className="bg-white p-2 w-[350px] h-[290px] hover:h-[427px] mt-[-125px] overflow-hidden hover:mt-[-200px] absolute left-[550px]">
+            <div className="bg-white p-2 w-[350px] h-[290px] hover:h-[427px] max-sm:mt-[230px] mt-[-125px] overflow-hidden hover:mt-[-200px] absolute max-sm:left-[16px] left-[550px] max-sm:hidden">
             <img src="img/mapi2.png" alt="" className="w-full"/>
             <p className="text-[#666666] text-[16px] font-semibold mt-2">Export Hub</p>
             <p className="text-[#3E506A] text-[20px] font-bold mt-2">Meerut, India</p>
