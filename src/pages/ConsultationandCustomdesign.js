@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
         <Header/>
         <div className="bg-[#000000] h-[122px]"></div>
         <img src="img/ccdb.png" alt="" className="w-full"/>
-        <div className="py-10 lg:px-[10rem] sm:px-[2rem]">
+        <div className="py-10 lg:px-[20rem] sm:px-[2rem]">
         <img src="img/ccd.png" alt="" className="w-full"/>
         <p className="text-[16px] text-[#666666]">Unleashing Your Gym's Potential with Tailored Solutions </p>
         <p className="text-[16px] text-[#333333] py-5">Creating the perfect gym is more than just assembling equipment; it's about understanding your unique vision and turning it into a reality that exceeds expectations. At Fitness Aim, we believe in the power of personalized design and consultation to create an exceptional fitness environment that reflects your goals and caters to your member’s needs. </p>

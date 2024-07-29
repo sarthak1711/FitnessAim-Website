@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
         <Header/>
         <div className="bg-[#000000] h-[122px]"></div>
         <img src="img/peb.png" alt="" className="w-full"/>
-        <div className="py-10 lg:px-[10rem] sm:px-[2rem]">
+        <div className="py-10 lg:px-[20rem] sm:px-[2rem]">
         <img src="img/pe1.png" alt="" className="w-full"/>
         <p className="text-[16px] text-[#666666]">Your Partner in Long-Term Success  </p>
         <p className="text-[16px] text-[#333333] py-5">Running a successful gym requires more than just top-quality equipment and an excellent setup. It demands ongoing care and attention to ensure everything operates smoothly and efficiently. At Fitness Aim, we are committed to your success, offering continuous support and maintenance services designed to keep your gym performing at its best every day. </p>

@@ -16,6 +16,7 @@ import Productlisting from './pages/Productlisting';
 import EnvironmentConservation from './pages/EnvironmentConservation';
 import InnovationTechnology from './pages/InnovationTechnology';
 import QualityManagement from './pages/QualityManagement';
+import Event from './pages/Event';
 
 
 import {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "QualityManagement",
     element: <QualityManagement/>,
+  },
+  {
+    path: "Event",
+    element: <Event/>,
   },
   {
     path: "InnovationTechnology",

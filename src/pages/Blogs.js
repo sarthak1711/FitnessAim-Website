@@ -19,7 +19,7 @@ import Footer from '../components/Footer'
             </div>
           </div>
 
-          <p className="text-[48px] font-bold mt-5">Articles</p>
+          {/* <p className="text-[48px] font-bold mt-5">Articles</p>
 
           <div className="grid grid-cols-2 gap-6 mt-10">
             <div className="grid grid-cols-2">
@@ -67,7 +67,7 @@ import Footer from '../components/Footer'
             </div>
 
             
-          </div>
+          </div> */}
         </div>
         
         <Footer/>

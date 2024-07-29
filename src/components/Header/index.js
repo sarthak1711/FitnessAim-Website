@@ -112,7 +112,7 @@ function closeNav() {
                   </div>
                 </div>
                 </li>
-                <li className="px-3 cursor-pointer py-[15px]"><a href="/NewsEvents" className="nb active">News & Events</a></li>
+                <li className="px-3 cursor-pointer py-[15px]"><a href="/NewsEvents" className="nb active ">News & Events</a></li>
                 <li className="px-3 cursor-pointer py-[15px]"><a href="/Blogs" className="nb active">Blogs</a></li>
                 <li className="px-3 cursor-pointer py-[15px]"><a href="/AboutUs" className="nb active">About Us</a></li>
                 <li className="px-3 cursor-pointer py-[15px]"><a href="/Contactus" className="nb active">Contact Us</a></li>

@@ -9,8 +9,10 @@ import '../../../src/style.css';
         <div className="py-10 text-center">
             <h1 className="text-3xl text-white pb-2">Whant to know more?</h1>
             <p className="text-white pb-5">Ready to push your limits? Discover how we empower athletes like you.</p>
-            <button className="rounded-lg bg-[#FC0505] text-white px-7 py-2">
+            <button className="rounded-lg bg-[#FC0505]  font-semibold text-white px-8 py-2">
+              <a href="/Contactus">
             Contact Us
+            </a>
             </button>
         </div>
         <div>
@@ -58,10 +60,10 @@ import '../../../src/style.css';
 
             <div >
               <ul>
-                <li className="text-white text-lg"><b>Product</b></li>
+                <li className="text-white text-lg"><b>Shop Now</b></li>
+                <li className="text-sm text-[#DDDDDD] cursor-pointer mt-2">Barbells</li>
+                <li className="text-sm text-[#DDDDDD] cursor-pointer mt-2">Plates</li>
                 <li className="text-sm text-[#DDDDDD] cursor-pointer mt-2">Lifting sets</li>
-                <li className="text-sm text-[#DDDDDD] cursor-pointer mt-2">Women’s Shoes</li>
-                <li className="text-sm text-[#DDDDDD] cursor-pointer mt-2">Kids Shoes</li>
               </ul>
             </div>
 

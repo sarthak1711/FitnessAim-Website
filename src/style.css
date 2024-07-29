@@ -212,8 +212,9 @@ nav .b-logo{
     cursor: pointer;
     color: white;
     position: absolute;
-    top: 41%;
-    left: 36%;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
 
   .lm:hover + .lmb{
