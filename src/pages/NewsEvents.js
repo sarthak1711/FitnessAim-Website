@@ -23,50 +23,17 @@ import Footer from '../components/Footer'
           <p className="text-[48px] font-bold mt-5">Latest Updates</p>
 
           <div className="grid grid-cols-2 gap-6 mt-10">
-            <div className="grid grid-cols-2">
-              <div className="bg-[#F7F7F7] p-10 relative">
+          <a href="/Event">
+            <div className="grid grid-cols-2 lm">
+              <div className="bg-[#F7F7F7] p-10 relative h-[530px]">
                 <p className="text-[13px] font-semibold">News</p>
-                <p className="text-[22px] font-bold mt-3">Fitness Aim Claims Prestigious SACC USA Business Awards 2024</p>
-                <p className="text-[14px] mt-5">Lorem ipsum dolor sit amet consectetur. Sed suscipit vitae neque consectetur vitae massa blandit bibendum vulputate. Aliquam pharetra est leo tellus convallis. Auctor auctor feugiat nec aliquam nec. Pretium ac ipsum nunc odio laoreet at.</p>
+                <p className="text-[22px] font-bold mt-3">Fitness Aim Shines at North India Powerlifting Championship 2024: A Triumph of Support and Excellence</p>
+                <p className="text-[14px] mt-5">At Fitness Aim, our commitment to promoting athletic excellence and empowering athletes through top-tier equipment was on full display at the North India Powerlifting Championship 2024. Hosted by PRO League International (Portugal) on July 13-14, 2024, at the...</p>
                 <p className="text-[#666666] text-[13px] w-fit rounded-full bg-white px-4 py-1 absolute bottom-5">2 mins read</p>
               </div>
-              <div><img src="img/nedummy.png" alt=""/></div>
+              <div><img src="img/ned.png" alt="" className="h-[530px] w-full"/></div>
             </div>
-
-            <div className="grid grid-cols-2">
-              <div className="bg-[#F7F7F7] p-10 relative">
-                <p className="text-[13px] font-semibold">News</p>
-                <p className="text-[22px] font-bold mt-3">Fitness Aim Claims Prestigious SACC USA Business Awards 2024</p>
-                <p className="text-[14px] mt-5">Lorem ipsum dolor sit amet consectetur. Sed suscipit vitae neque consectetur vitae massa blandit bibendum vulputate. Aliquam pharetra est leo tellus convallis. Auctor auctor feugiat nec aliquam nec. Pretium ac ipsum nunc odio laoreet at.</p>
-                <p className="text-[#666666] text-[13px] w-fit rounded-full bg-white px-4 py-1 absolute bottom-5">2 mins read</p>
-              </div>
-              <div><img src="img/nedummy.png" alt=""/></div>
-            </div>
-
-            
-          </div>
-
-          <div className="grid grid-cols-2 gap-6 mt-10">
-            <div className="grid grid-cols-2">
-              <div className="bg-[#F7F7F7] p-10 relative">
-                <p className="text-[13px] font-semibold">News</p>
-                <p className="text-[22px] font-bold mt-3">Fitness Aim Claims Prestigious SACC USA Business Awards 2024</p>
-                <p className="text-[14px] mt-5">Lorem ipsum dolor sit amet consectetur. Sed suscipit vitae neque consectetur vitae massa blandit bibendum vulputate. Aliquam pharetra est leo tellus convallis. Auctor auctor feugiat nec aliquam nec. Pretium ac ipsum nunc odio laoreet at.</p>
-                <p className="text-[#666666] text-[13px] w-fit rounded-full bg-white px-4 py-1 absolute bottom-5">2 mins read</p>
-              </div>
-              <div><img src="img/nedummy.png" alt=""/></div>
-            </div>
-
-            <div className="grid grid-cols-2">
-              <div className="bg-[#F7F7F7] p-10 relative">
-                <p className="text-[13px] font-semibold">News</p>
-                <p className="text-[22px] font-bold mt-3">Fitness Aim Claims Prestigious SACC USA Business Awards 2024</p>
-                <p className="text-[14px] mt-5">Lorem ipsum dolor sit amet consectetur. Sed suscipit vitae neque consectetur vitae massa blandit bibendum vulputate. Aliquam pharetra est leo tellus convallis. Auctor auctor feugiat nec aliquam nec. Pretium ac ipsum nunc odio laoreet at.</p>
-                <p className="text-[#666666] text-[13px] w-fit rounded-full bg-white px-4 py-1 absolute bottom-5">2 mins read</p>
-              </div>
-              <div><img src="img/nedummy.png" alt=""/></div>
-            </div>
-
+            </a>
             
           </div>
         </div>

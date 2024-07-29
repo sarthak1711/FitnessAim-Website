@@ -18,14 +18,14 @@ const Collectionsection = () => {
               Equipment Supply</p>
               <p className="text-[18px] text-[#ADADAD] mt-4 mb-10">Level up your fitness with our premium cardio and strength training equipment.</p>
               {/* <hr/> */}
-              <p className="text-[14px] text-white mt-2 cursor-pointer absolute w-[85%] bottom-[30px]" style={{borderTop: '1px solid #424242'}}>Know More</p>
+              <p className="text-[14px] text-white mt-2 pt-2 hover:text-red-500 cursor-pointer absolute w-[85%] bottom-[30px]" style={{borderTop: '1px solid #424242'}}><a href="/PremiumEquipment">Know More</a></p>
             </div>
 
             <div className="h-[400px] text-center relative px-7 py-5" style={{border: '1px solid #424242'}}>
               <p className="flex justify-center mt-4"><img src="img/os2.png" alt=""/></p>
               <p className="text-white text-[24px] mt-5">On-site<br/>Installation & Setup</p>
               <p className="text-[18px] text-[#ADADAD] mt-4 mb-5">Our expert team handles everything from gym equipment delivery to setup and testing, for a stress-free business launch.</p>
-              <p className="text-[14px] text-white mt-2 cursor-pointer absolute w-[85%] bottom-[30px]" style={{borderTop: '1px solid #424242'}}>Know More</p>
+              <p className="text-[14px] text-white mt-2 pt-2 hover:text-red-500 cursor-pointer absolute w-[85%] bottom-[30px]" style={{borderTop: '1px solid #424242'}}><a href="/Onsiteinstallation">Know More</a></p>
             </div>
 
             <div className="h-[400px] text-center relative px-7 py-5" style={{border: '1px solid #424242'}}>
@@ -34,7 +34,7 @@ const Collectionsection = () => {
               Custom Design </p>
               <p className="text-[18px] text-[#ADADAD] mt-4 mb-10">Together, we'll explore your vision and develop a personalized plan to bring your dream gym 
               to life.</p>
-              <p className="text-[14px] text-white mt-2 cursor-pointer absolute w-[85%] bottom-[30px]" style={{borderTop: '1px solid #424242'}}>Know More</p>
+              <p className="text-[14px] text-white mt-2 pt-2 hover:text-red-500 cursor-pointer absolute w-[85%] bottom-[30px]" style={{borderTop: '1px solid #424242'}}><a href="/ConsultationandCustomdesign">Know More</a></p>
             </div>
 
             <div className="h-[400px] relative text-center px-7 py-5" style={{border: '1px solid #424242'}}>
@@ -42,7 +42,7 @@ const Collectionsection = () => {
               <p className="text-white text-[24px] mt-5"> Continuous Support<br/>& Maintenance</p>
               <p className="text-[18px] text-[#ADADAD] mt-4 mb-5">Committed to your success, we provide continuous support to keep your gym operating at its best, 
               every day.</p>
-              <p className="text-[14px] text-white mt-2 cursor-pointer absolute w-[85%] bottom-[30px]" style={{borderTop: '1px solid #424242'}}>Know More</p>
+              <p className="text-[14px] text-white mt-2 pt-2 hover:text-red-500 cursor-pointer absolute w-[85%] bottom-[30px]" style={{borderTop: '1px solid #424242'}}><a href="/Support">Know More</a></p>
             </div>
           </div>
         </div>

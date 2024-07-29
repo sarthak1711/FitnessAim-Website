@@ -11,22 +11,27 @@ const Collectionsection = () => {
           <div className="grid lg:grid-cols-3 max-sm:grid-cols-1 gap-2 pt-20 max-sm:px-6">
             <div className="relative">
               <img src="img/h1.png" alt="" className="w-full lm hover:opacity-30"/>
-              <a href="/EnvironmentConservation" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Learn More</a>
+              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              <a href="/EnvironmentConservation">Learn More</a></button>
             </div>
 
             <div className="relative">
               <img src="img/h2.png" alt="" className="w-full lm hover:opacity-30"/>
-              <a href="/InnovationTechnology" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Learn More</a>
+              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              <a href="/InnovationTechnology">Learn More</a></button>
             </div>
 
             <div className="relative">
               <img src="img/h3.png" alt="" className="w-full lm hover:opacity-30"/>
-              <a href="/QualityManagement" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Learn More</a>
+              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              <a href="/QualityManagement">Learn More</a></button>
             </div>
 
           </div>
         </div>
+        <a href="/ShopNow">
         <img src="img/iucn.png" alt="" className="w-full"/>
+        </a>
       </section>
   );
 };

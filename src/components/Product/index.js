@@ -20,22 +20,27 @@ const Collectionsection = () => {
           <div className="grid lg:grid-cols-2 max-sm:grid-cols-1 gap-10 lg:py-20 max-sm:py-6 lg:px-[10rem] max-sm:px-6">
             <div className="relative">
               <img src="img/pc1n.png" alt="" className="w-full lm hover:opacity-30"/>
-              <a href="/Onsiteinstallation" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Explore</a>
+              
+              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              <a href="/Onsiteinstallation">Explore</a></button>
             </div>
 
             <div className="relative">
               <img src="img/pc2n.png" alt="" className="w-full lm hover:opacity-30"/>
-              <a href="/ConsultationandCustomdesign" className="lmb border-2 border-white px-5 py-1 rounded-3xl">Explore</a>
+              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              <a href="/ConsultationandCustomdesign">Explore</a></button>
             </div>
 
             <div className="relative">
               <img src="img/pc3n.png" alt="" className="w-full lm hover:opacity-30"/>
-              <a className="lmb border-2 border-white px-5 py-1 rounded-3xl">Explore</a>
+              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              <a className=" ">Explore</a></button>
             </div>
 
             <div className="relative">
               <img src="img/pc4n.png" alt="" className="w-full lm hover:opacity-30"/>
-              <a className="lmb border-2 border-white px-5 py-1 rounded-3xl">Explore</a>
+              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              <a className=" ">Explore</a></button>
             </div>
 
           </div>

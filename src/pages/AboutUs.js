@@ -21,9 +21,9 @@ import Footer from '../components/Footer'
             <section className="pbg mt-10">
         <div className="">
           
-          <div className="grid grid-cols-2 gap-10 py-10">
+          <div className="grid grid-cols-2 gap-10 my-10">
             <div className="">
-              <img src="img/op1.png" alt=""/>
+              <img src="img/op1a.png" alt=""/>
             </div>
 
             <div className=" flex items-center">
@@ -45,7 +45,7 @@ import Footer from '../components/Footer'
             </div>
 
             <div className="">
-              <img src="img/op1.png" alt=""/>
+              <img src="img/op1b.png" alt=""/>
             </div>
 
           </div>

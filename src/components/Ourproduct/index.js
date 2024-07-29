@@ -20,7 +20,7 @@ const Collectionsection = () => {
               <div className="max-sm:text-center">
             <div className="text-center lg:text-[48px] max-sm:text-[32px] flex justify-start max-sm:justify-center"><p className="text-white">Our</p><p className="text-[#FC0505]">&nbsp;Purpose</p></div>
             <p className="text-white text-[18px] mt-2">Empowering athletes to achieve their sporting dreams, from national competitions to the Olympic Games. We provide comprehensive support and world-class, Indian-made equipment to help you reach your full potential.</p>
-            <button className="bg-[#FA0403] py-2 px-8 rounded-md text-white mt-5">Know More About Us</button>
+            <button className="bg-[#FA0403] py-4 text-[20px] semibold px-8 rounded-md text-white mt-5"><a href="/AboutUs">Know More About Us</a></button>
             <img src="img/opl.png" alt="" className="mt-8"/>
             </div>
             </div>
