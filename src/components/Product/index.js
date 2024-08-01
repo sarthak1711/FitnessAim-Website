@@ -22,13 +22,13 @@ const Collectionsection = () => {
               <img src="img/pc1n.png" alt="" className="w-full lm hover:opacity-30"/>
               
               <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
-              <a href="/Onsiteinstallation">Explore</a></button>
+              <a href="">Explore</a></button>
             </div>
 
             <div className="relative">
               <img src="img/pc2n.png" alt="" className="w-full lm hover:opacity-30"/>
               <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
-              <a href="/ConsultationandCustomdesign">Explore</a></button>
+              <a href="">Explore</a></button>
             </div>
 
             <div className="relative">

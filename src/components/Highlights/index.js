@@ -11,27 +11,41 @@ const Collectionsection = () => {
           <div className="grid lg:grid-cols-3 max-sm:grid-cols-1 gap-2 pt-20 max-sm:px-6">
             <div className="relative">
               <img src="img/h1.png" alt="" className="w-full lm hover:opacity-30"/>
-              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
-              <a href="/EnvironmentConservation">Learn More</a></button>
+              <a href="/EnvironmentConservation" className="lmb">
+              <button className=" hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              Learn More</button>
+              </a>
             </div>
 
             <div className="relative">
               <img src="img/h2.png" alt="" className="w-full lm hover:opacity-30"/>
-              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
-              <a href="/InnovationTechnology">Learn More</a></button>
+              <a href="/InnovationTechnology" className="lmb">
+              <button className=" hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              Learn More</button>
+              </a>
             </div>
 
             <div className="relative">
               <img src="img/h3.png" alt="" className="w-full lm hover:opacity-30"/>
-              <button className="lmb hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
-              <a href="/QualityManagement">Learn More</a></button>
+              <a href="/QualityManagement" className="lmb">
+              <button className=" hover:bg-white border-2 border-white w-[143px] h-[56px] rounded-full text-[16px]">
+              Learn More</button>
+              </a>
             </div>
 
           </div>
         </div>
-        <a href="/ShopNow">
-        <img src="img/iucn.png" alt="" className="w-full"/>
-        </a>
+        <div className="relative">
+        <img src="img/iucn (2).png" alt="" className="w-full imain"/>
+        <div className="icon w-full text-center">
+        <h1 className="text-center text-white font-semibold lg:text-[54px] max-sm:text-[14px]">Unleash your Inner Beast with Fitness Aim</h1>
+        <button className="rounded-lg mt-4 bg-[#FC0505]  font-semibold text-white h-[54px] text-[18px] px-8 py-2">
+              <a href="/ShopNow">
+              Shop Now
+            </a>
+            </button>
+            </div>
+            </div>
       </section>
   );
 };
