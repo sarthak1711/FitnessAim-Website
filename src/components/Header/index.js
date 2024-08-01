@@ -17,14 +17,14 @@ function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
 
-// window.onscroll = () => {
-//   const nav = document.querySelector('#navbar');
-//   if(window.scrollY <= 10) {
-//     nav.className = '';
-//   } else {
-//     nav.className = 'scroll';
-//   }
-// };
+window.onscroll = () => {
+  const nav = document.querySelector('#navbar');
+  if(window.scrollY <= 10) {
+    nav.className = '';
+  } else {
+    nav.className = 'scroll';
+  }
+};
   const Header = () => {
     
   return (
@@ -87,11 +87,11 @@ function closeNav() {
                 <li className="px-3 cursor-pointer flex items-center snavp py-[15px]"><a className="nb active flex items-center">Services<FaAngleDown className="mt-1 ml-2"/></a> <br/>
                 <div className="snav">
                 <div className="h-[35px] bg-black"></div>
-                  <div className="grid grid-cols-2">
-                    <div className="py-10 px-20 grid grid-cols-2 gap-7 bg-[#333333]">
+                  <div className="grid grid-cols-12">
+                    <div className="col-span-7 py-10 px-20 grid grid-cols-2 gap-7 bg-[#333333]">
                       <div>
                         <ul>
-                          <li className="text-[18px] text-[#B6B6B6] font-semibold">SERVICE</li>
+                          <li className="text-[18px] text-[#B6B6B6] font-semibold">SERVICES</li>
                           <li className="text-[18px] text-[#ffffff] font-medium mt-3"><a href="/PremiumEquipment">Premium Equipment Supply</a></li>
                           <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/Onsiteinstallation">On-site Installation & Setup</a></li>
                           <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/ConsultationandCustomdesign">Consultation & Custom Design </a></li>
@@ -108,7 +108,7 @@ function closeNav() {
                         </ul>
                       </div>
                     </div>
-                    <div><img src="img/snav.png" alt=""/></div>
+                    <div className="col-span-5"><img src="img/snav.png" alt="" className="w-full h-full"/></div>
                   </div>
                 </div>
                 </li>
@@ -179,14 +179,28 @@ function closeNav() {
               </button>
             </a><div className="dropdown-content">
               <a href="#"></a>
+              <ul>
+                          <li className="text-[18px] text-[#B6B6B6] font-semibold ml-5">SERVICES</li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-3"><a href="/PremiumEquipment">Premium Equipment Supply</a></li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/Onsiteinstallation">On-site Installation & Setup</a></li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/ConsultationandCustomdesign">Consultation & Custom Design </a></li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/Support">Continuous Support & Maintenance</a></li>
+                        </ul>
+
+                        <ul>
+                          <li className="text-[18px] text-[#B6B6B6] font-semibold ml-5 mt-5">HIGHLIGHTS</li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-3"><a href="/EnvironmentConservation">Environment Conservation</a></li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/InnovationTechnology">Innovation & Technology</a></li>
+                          <li className="text-[18px] text-[#ffffff] font-medium mt-1"><a href="/QualityManagement">Quality Management  </a></li>
+                        </ul>
               {/* <a href="#">Totes &amp; Satchels</a> */}
             </div>
           </div>
           {/* end dropdown.............. */}
-          <a href="#" alt=''>News & Events</a>
-          <a href="#">Blogs</a>
-          <a href="#">About Us</a>
-          <a href="#">Contact Us</a>
+          <a href="/NewsEvents" alt=''>News & Events</a>
+          <a href="/Blogs">Blogs</a>
+          <a href="/AboutUs">About Us</a>
+          <a href="/Contactus">Contact Us</a>
         </div>
       </div>
   </section>

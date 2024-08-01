@@ -10,8 +10,8 @@ import Footer from '../components/Footer'
     <div className="">
         <Header/>
         <div className="bg-[#000000] h-[122px]"></div>
-        <img src="img/pebec.png" alt="" className="w-full"/>
-        <div className="py-10 lg:px-[10rem] sm:px-[2rem]">
+        <div className="bg-[#f8f8f8] py-10 lg:px-[20rem] sm:px-[2rem] text-[40px] font-bold">Empowering Global Fitness with Environmentally Responsible Practices</div>
+        <div className="py-10 lg:px-[20rem] sm:px-[2rem]">
         <img src="img/ecm.png" alt="" className="w-full"/>
 
             <p className="text-[16px] text-[#333333] py-5">Welcome to Arawat International, the driving force behind Fitness Aim, a brand synonymous with fitness excellence and environmental stewardship. Since our inception in 2011, we have proudly adhered to stringent government regulations across 16+ countries worldwide. Our commitment extends beyond mere compliance; we strive to lead by example in sustainable business practices.</p>

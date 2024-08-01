@@ -17,6 +17,10 @@ import EnvironmentConservation from './pages/EnvironmentConservation';
 import InnovationTechnology from './pages/InnovationTechnology';
 import QualityManagement from './pages/QualityManagement';
 import Event from './pages/Event';
+import TermsandConditions from './pages/TermsandConditions';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import ShippingPolicy from './pages/ShippingPolicy';
+import ReturnPolicy from './pages/ReturnPolicy';
 
 
 import {
@@ -30,8 +34,24 @@ const router = createBrowserRouter([
     element: <AboutUs/>,
   },
   {
+    path: "ReturnPolicy",
+    element: <ReturnPolicy/>,
+  },
+  {
+    path: "PrivacyPolicy",
+    element: <PrivacyPolicy/>,
+  },
+  {
+    path: "ShippingPolicy",
+    element: <ShippingPolicy/>,
+  },
+  {
     path: "QualityManagement",
     element: <QualityManagement/>,
+  },
+  {
+    path: "TermsandConditions",
+    element: <TermsandConditions/>,
   },
   {
     path: "Event",
